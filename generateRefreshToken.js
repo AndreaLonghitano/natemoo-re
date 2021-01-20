@@ -19,7 +19,7 @@ if (process.env["SPOTIFY_REFRESH_TOKEN"]) {
   process.exit(0);
 }
 
-const SERVER_PORT = 3000;
+const SERVER_PORT = 4521;
 const requiredConfigs = ["SPOTIFY_CLIENT_ID", "SPOTIFY_CLIENT_SECRET"];
 const configuration = {};
 
